@@ -1,0 +1,128 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0px;
+	padding: 0px;
+	border: 0px none;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+header{
+	display:block;
+	background-color:#4BD78B;
+	border-bottom:solid 1px #C8C8C8;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	height:4.375em;
+	margin-top:.4em;
+	margin-bottom:2em;
+	padding:0 1.3em;
+}
+
+.section-box {
+	max-width: 1032px;
+	margin: 0 auto;
+	padding: 0 0;
+	position: relative;
+}
+
+.imagerollover {
+	float:left;
+	position:relative;
+	width:46.5%;
+}
+.imagerollover img {
+	position:absolute;
+	-webkit-transition:opacity 1s ease-in-out;
+	-moz-transition:opacity 1s ease-in-out;
+	-o-transition:opacity 1s ease-in-out;
+	transition:opacity 1s ease-in-out;
+	width:100%;
+	height:auto
+}
+.imagerollover .top:hover {
+	opacity:0;
+}
+nav {
+	display:block;
+	float: right;
+	margin-top: 1.75em;
+}
+nav li{
+	text-transform:uppercase;
+	float:left;
+	margin-left:0.5625em
+}
+.menu-list{
+	list-style-type:none;
+	padding-left:0;
+}
+.menu-list li{
+	float: left;
+	margin-left: 1em;
+}
+.menu-list a{
+	color: #3AA9C6;
+}
+
+.section-hide {
+	display:none;
+}
+.cols-wrapper {
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:16px;
+}
+.cols-2 .col {
+	width: 396px;
+}
+.col {
+	width: 138px;
+	float:left;
+}
+.rp {
+	margin: 20px 20px;
+	display: inline-block;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.ibox {
+	background:#3BA88A;
+	height: 55px;
+	padding:39px;
+}
+.ibox-text{
+	text-align:center;
+	color:#FFFFFF;
+}
+
+
+footer{
+	display:block;
+	background-color:#CECBC4;
+	background-image:linear-gradient(to bottom,#CECBC4 0,#E1E0DC 100%);
+	border-top:solid 1px #F0F0F0
+}
+footer div{
+	padding-top:.9375em
+}
+footer h1{
+	font-size:1.375em;
+	margin-top:-.273em
+}
+footer a{
+	float:right
+}
+footer nav{
+	float:left;
+}
+footer li{
+	text-transform:uppercase;
+	float:left;
+	margin-left:0.5625em
+}
+.stud{
+	clear:both
+}
